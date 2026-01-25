@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>qual-IT Systems, LLC</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on qual-IT Systems, LLC</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Larry G. Wapnitsky</title>
-      <link>//localhost:1313/author/larry-g-wapnitsky/</link>
+      <link>/author/larry-g-wapnitsky/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/author/larry-g-wapnitsky/</guid>
+      <guid>/author/larry-g-wapnitsky/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.&#xA;Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.&lt;/p&gt;</description>
     </item>
   </channel>
