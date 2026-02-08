@@ -11,7 +11,26 @@ CookieConsent.run({
             enabled: true,  // this category is enabled by default
             readOnly: true  // this category cannot be disabled
         },
-        analytics: {}
+        analytics: {
+            autoClear: {
+                cookies: [
+                    {
+                        name: /^_ga/,   // regex: match all cookies starting with '_ga'
+                    },
+                    {
+                        name: '_gid',   // string: exact cookie name
+                    }
+                ]
+            }
+        }
+    },
+
+    cookie: {
+        name: 'cc_cookie',
+        // domain: location.hostname,
+        // path: '/',
+        // sameSite: "Lax",
+        // expiresAfterDays: 182,
     },
 
     language: {
@@ -50,7 +69,7 @@ CookieConsent.run({
                         },
                         {
                             title: 'More information',
-                            description: 'For any queries in relation to my policy on cookies and your choices, please <a href="#contact-page">contact us</a>'
+                            description: 'For any queries in relation to my policy on cookies and your choices, please <a href="#contact">contact us</a>'
                         }
                     ]
                 }
